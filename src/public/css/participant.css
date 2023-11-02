@@ -1,0 +1,37 @@
+.novice,
+.manager,
+.vice,
+.president {
+    font-style: italic;
+    white-space: nowrap;
+}
+
+.novice > *,
+.manager > *,
+.vice > *,
+.president > * {
+    padding: 0 5px !important;
+}
+
+.novice > img,
+.manager > img,
+.vice > img,
+.president > img {
+    height: 10px;
+}
+
+.president img {
+    height: 100px;
+}
+
+.manager {
+    color: #1b8512;
+}
+
+.vice {
+    color: #dda006 !important;
+}
+
+.president {
+    color: #dd0a16;
+}
